@@ -1,0 +1,64 @@
+body {
+  font-family: inherit;
+  color: black;
+}
+h1 {
+  font-size: 35px;
+  color: #0a0a0a;
+  line-height: 28px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  color: #0a0a0a;
+  font-size: 20px;
+  line-height: 25px;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+.app-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.weather-app {
+  background-image: url("https://img.freepik.com/free-vector/abstract-background-with-sugar-cotton-candy-cloud-design_1048-15339.jpg?t=st=1684621579~exp=1684622179~hmac=a50059d182fbff0a487447330a3b9ab0ca7ca820b380c27cdb021b86391468bc");
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  margin-top: 30px;
+  height: 360px;
+}
+.display {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#temp {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+}
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+.active {
+  color: #5e08b4;
+  cursor: default;
+}
+#celsius-link,
+#fahrenheit-link,
+.remove.active {
+  text-decoration: none;
+}
+#celsius-link,
+#fahrenheit-link,
+.hover {
+  text-decoration: none;
+}
